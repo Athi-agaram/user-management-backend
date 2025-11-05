@@ -1,7 +1,36 @@
-[2025-11-04 19:05:34] [INFO] com.example.demo.UserManagementBackendApplication - Starting UserManagementBackendApplication using Java 21.0.8 with PID 35788 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-[2025-11-04 19:05:34] [DEBUG] com.example.demo.UserManagementBackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
-[2025-11-04 19:05:34] [INFO] com.example.demo.UserManagementBackendApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-11-04 19:06:41] [INFO] com.example.demo.UserManagementBackendApplication - Starting UserManagementBackendApplication using Java 21.0.8 with PID 12692 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-[2025-11-04 19:06:41] [DEBUG] com.example.demo.UserManagementBackendApplication - Running with Spring Boot v3.5.7, Spring v6.2.12
-[2025-11-04 19:06:41] [INFO] com.example.demo.UserManagementBackendApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-11-04 19:06:43] [INFO] com.example.demo.UserManagementBackendApplication - Started UserManagementBackendApplication in 2.984 seconds (process running for 4.354)
+2025-11-05 14:30:26 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 17220 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-05 14:30:26 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 14:30:52 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 41624 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-05 14:30:52 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 14:30:54 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 2.873 seconds (process running for 4.362)
+2025-11-05 14:33:18 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 34344 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-05 14:33:18 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 14:36:28 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 228 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-05 14:36:28 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 14:36:30 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 3.557 seconds (process running for 4.535)
+2025-11-05 14:38:31 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 12680 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-05 14:38:31 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 14:39:31 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 40192 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-05 14:39:31 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 14:39:34 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 3.171 seconds (process running for 4.568)
+2025-11-05 14:51:52 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 43744 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-05 14:51:52 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 14:52:21 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 15416 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-05 14:52:21 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 14:52:23 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 2.709 seconds (process running for 4.232)
+2025-11-05 14:53:38 INFO  UserController:26 - Received POST request to add new user: john
+2025-11-05 14:53:38 INFO  UserService:22 - Attempting to add new user: john
+2025-11-05 14:53:39 INFO  UserController:26 - Received POST request to add new user: john
+2025-11-05 14:53:39 INFO  UserService:22 - Attempting to add new user: john
+2025-11-05 14:53:43 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-05 14:53:43 INFO  UserService:39 - Fetching all users from database...
+2025-11-05 14:53:43 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-05 14:53:43 INFO  UserService:39 - Fetching all users from database...
+2025-11-05 14:53:46 INFO  UserController:53 - Received DELETE request for user ID: 7
+2025-11-05 14:53:46 INFO  UserService:64 - Attempting to delete user with ID: 7
+2025-11-05 14:53:46 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-05 14:53:46 INFO  UserService:39 - Fetching all users from database...
+2025-11-05 14:53:47 INFO  UserController:53 - Received DELETE request for user ID: 6
+2025-11-05 14:53:47 INFO  UserService:64 - Attempting to delete user with ID: 6
+2025-11-05 14:53:47 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-05 14:53:47 INFO  UserService:39 - Fetching all users from database...

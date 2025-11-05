@@ -12,7 +12,6 @@ import java.util.List;
 @Service
 public class UserService {
 
-    // 🔹 Create a Logger for this class
     private static final Logger logger = LogManager.getLogger(UserService.class);
 
     @Autowired
@@ -36,7 +35,6 @@ public class UserService {
         }
     }
 
-    // 🔹 Read users
     public List<User> getUsers() {
         logger.info("Fetching all users from database...");
         List<User> users = repo.findAll();
@@ -44,7 +42,6 @@ public class UserService {
         return users;
     }
 
-    // 🔹 Update user
     public String updateUser(User user) {
         logger.info("Attempting to update user with ID: {}", user.getId());
         try {

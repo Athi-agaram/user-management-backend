@@ -1,36 +1,18 @@
-2025-11-05 14:30:26 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 17220 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-2025-11-05 14:30:26 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
-2025-11-05 14:30:52 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 41624 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-2025-11-05 14:30:52 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
-2025-11-05 14:30:54 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 2.873 seconds (process running for 4.362)
-2025-11-05 14:33:18 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 34344 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-2025-11-05 14:33:18 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
-2025-11-05 14:36:28 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 228 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-2025-11-05 14:36:28 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
-2025-11-05 14:36:30 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 3.557 seconds (process running for 4.535)
-2025-11-05 14:38:31 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 12680 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-2025-11-05 14:38:31 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
-2025-11-05 14:39:31 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 40192 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-2025-11-05 14:39:31 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
-2025-11-05 14:39:34 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 3.171 seconds (process running for 4.568)
-2025-11-05 14:51:52 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 43744 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-2025-11-05 14:51:52 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
-2025-11-05 14:52:21 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 15416 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
-2025-11-05 14:52:21 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
-2025-11-05 14:52:23 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 2.709 seconds (process running for 4.232)
-2025-11-05 14:53:38 INFO  UserController:26 - Received POST request to add new user: john
-2025-11-05 14:53:38 INFO  UserService:22 - Attempting to add new user: john
-2025-11-05 14:53:39 INFO  UserController:26 - Received POST request to add new user: john
-2025-11-05 14:53:39 INFO  UserService:22 - Attempting to add new user: john
-2025-11-05 14:53:43 INFO  UserController:35 - Received GET request to fetch all users
-2025-11-05 14:53:43 INFO  UserService:39 - Fetching all users from database...
-2025-11-05 14:53:43 INFO  UserController:35 - Received GET request to fetch all users
-2025-11-05 14:53:43 INFO  UserService:39 - Fetching all users from database...
-2025-11-05 14:53:46 INFO  UserController:53 - Received DELETE request for user ID: 7
-2025-11-05 14:53:46 INFO  UserService:64 - Attempting to delete user with ID: 7
-2025-11-05 14:53:46 INFO  UserController:35 - Received GET request to fetch all users
-2025-11-05 14:53:46 INFO  UserService:39 - Fetching all users from database...
-2025-11-05 14:53:47 INFO  UserController:53 - Received DELETE request for user ID: 6
-2025-11-05 14:53:47 INFO  UserService:64 - Attempting to delete user with ID: 6
-2025-11-05 14:53:47 INFO  UserController:35 - Received GET request to fetch all users
-2025-11-05 14:53:47 INFO  UserService:39 - Fetching all users from database...
+2025-11-06 10:18:54 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 23452 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06 10:18:54 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-06 10:18:56 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 3.409 seconds (process running for 5.744)
+2025-11-06 10:19:31 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-06 10:19:34 INFO  UserService:39 - Fetching all users from database...
+2025-11-06 10:21:02 INFO  UserManagementBackendApplication:53 - Starting UserManagementBackendApplication using Java 21.0.8 with PID 38716 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06 10:21:02 INFO  UserManagementBackendApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2025-11-06 10:21:04 INFO  UserManagementBackendApplication:59 - Started UserManagementBackendApplication in 2.901 seconds (process running for 4.487)
+2025-11-06 10:21:15 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-06 10:21:15 INFO  UserService:39 - Fetching all users from database...
+2025-11-06 10:21:16 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-06 10:21:16 INFO  UserService:39 - Fetching all users from database...
+2025-11-06 10:21:56 INFO  UserController:26 - Received POST request to add new user: john
+2025-11-06 10:21:56 INFO  UserService:22 - Attempting to add new user: john
+2025-11-06 10:21:58 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-06 10:21:58 INFO  UserService:39 - Fetching all users from database...
+2025-11-06 10:21:58 INFO  UserController:35 - Received GET request to fetch all users
+2025-11-06 10:21:58 INFO  UserService:39 - Fetching all users from database...

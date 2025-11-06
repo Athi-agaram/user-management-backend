@@ -1,0 +1,264 @@
+2025-11-06T10:25:10.163+05:30  INFO 23328 --- [main] c.e.d.UserManagementBackendApplication   : Starting UserManagementBackendApplication using Java 21.0.8 with PID 23328 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T10:25:10.175+05:30  INFO 23328 --- [main] c.e.d.UserManagementBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:25:11.327+05:30  INFO 23328 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:25:11.354+05:30  INFO 23328 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:25:11.355+05:30  INFO 23328 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:25:11.414+05:30  INFO 23328 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:25:11.415+05:30  INFO 23328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1172 ms
+2025-11-06T10:25:12.183+05:30  INFO 23328 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:25:12.195+05:30  INFO 23328 --- [main] c.e.d.UserManagementBackendApplication   : Started UserManagementBackendApplication in 2.635 seconds (process running for 4.908)
+2025-11-06T10:25:20.078+05:30  INFO 23328 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:25:20.078+05:30  INFO 23328 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:25:20.080+05:30  INFO 23328 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-11-06T10:25:20.150+05:30  INFO 23328 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:25:20.151+05:30  INFO 23328 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:25:20.182+05:30  INFO 23328 --- [http-nio-8080-exec-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:25:20.692+05:30  INFO 23328 --- [http-nio-8080-exec-1] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c9b2015f-ea89-4065-9be6-678e54c6cc4c
+2025-11-06T10:25:20.695+05:30  INFO 23328 --- [http-nio-8080-exec-1] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:25:20.806+05:30  INFO 23328 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:25:20.806+05:30  INFO 23328 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:25:42.380+05:30  INFO 23328 --- [http-nio-8080-exec-3] c.e.d.c.UserController                   : Received POST request to add new user: Athira
+2025-11-06T10:25:42.380+05:30  INFO 23328 --- [http-nio-8080-exec-3] c.e.d.s.UserService                      : Attempting to add new user: Athira
+2025-11-06T10:25:45.608+05:30  INFO 23328 --- [http-nio-8080-exec-4] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:25:45.609+05:30  INFO 23328 --- [http-nio-8080-exec-4] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:25:45.626+05:30  INFO 23328 --- [http-nio-8080-exec-5] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:25:45.626+05:30  INFO 23328 --- [http-nio-8080-exec-5] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:27:40.646+05:30  INFO 23328 --- [http-nio-8080-exec-8] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:27:40.647+05:30  INFO 23328 --- [http-nio-8080-exec-8] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:27:40.664+05:30  INFO 23328 --- [http-nio-8080-exec-9] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:27:40.664+05:30  INFO 23328 --- [http-nio-8080-exec-9] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:29:40.335+05:30  INFO 23328 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T10:29:40.343+05:30  INFO 23328 --- [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T10:29:40.467+05:30  INFO 23328 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-06T10:29:40.477+05:30  INFO 23328 --- [RMI TCP Connection(8)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T10:29:40.515+05:30  INFO 23328 --- [RMI TCP Connection(8)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T10:31:25.271+05:30  INFO 31304 --- [main] c.e.d.UserManagementBackendApplication   : Starting UserManagementBackendApplication using Java 21.0.8 with PID 31304 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T10:31:25.282+05:30 DEBUG 31304 --- [main] c.e.d.UserManagementBackendApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:31:25.284+05:30  INFO 31304 --- [main] c.e.d.UserManagementBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:31:26.560+05:30  INFO 31304 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:31:26.583+05:30  INFO 31304 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:31:26.584+05:30  INFO 31304 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:31:26.679+05:30  INFO 31304 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:31:26.682+05:30  INFO 31304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1334 ms
+2025-11-06T10:31:27.627+05:30  INFO 31304 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:31:27.639+05:30  INFO 31304 --- [main] c.e.d.UserManagementBackendApplication   : Started UserManagementBackendApplication in 2.971 seconds (process running for 4.694)
+2025-11-06T10:31:42.937+05:30  INFO 31304 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:31:42.937+05:30  INFO 31304 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:31:42.941+05:30  INFO 31304 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2025-11-06T10:31:43.011+05:30  INFO 31304 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:31:43.012+05:30  INFO 31304 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:31:43.029+05:30  INFO 31304 --- [http-nio-8080-exec-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:31:43.446+05:30  INFO 31304 --- [http-nio-8080-exec-1] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: f6e614e9-3178-46a8-9d99-af486705a755
+2025-11-06T10:31:43.449+05:30  INFO 31304 --- [http-nio-8080-exec-1] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:31:43.474+05:30 DEBUG 31304 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetched 2 users from database.
+2025-11-06T10:31:43.475+05:30 DEBUG 31304 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Fetched 2 users from database
+2025-11-06T10:31:43.565+05:30  INFO 31304 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:31:43.566+05:30  INFO 31304 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:31:43.571+05:30 DEBUG 31304 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetched 2 users from database.
+2025-11-06T10:31:43.571+05:30 DEBUG 31304 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Fetched 2 users from database
+2025-11-06T10:32:59.415+05:30  INFO 31304 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T10:32:59.419+05:30  INFO 31304 --- [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T10:32:59.427+05:30  INFO 31304 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-06T10:32:59.432+05:30  INFO 31304 --- [RMI TCP Connection(5)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T10:32:59.438+05:30  INFO 31304 --- [RMI TCP Connection(5)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T10:33:10.032+05:30  INFO 23112 --- [main] c.e.d.UserManagementBackendApplication   : Starting UserManagementBackendApplication using Java 21.0.8 with PID 23112 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T10:33:10.048+05:30 DEBUG 23112 --- [main] c.e.d.UserManagementBackendApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:33:10.051+05:30  INFO 23112 --- [main] c.e.d.UserManagementBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:33:11.672+05:30  INFO 23112 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:33:11.702+05:30  INFO 23112 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:33:11.703+05:30  INFO 23112 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:33:11.798+05:30  INFO 23112 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:33:11.799+05:30  INFO 23112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1660 ms
+2025-11-06T10:33:13.013+05:30  INFO 23112 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:33:13.034+05:30  INFO 23112 --- [main] c.e.d.UserManagementBackendApplication   : Started UserManagementBackendApplication in 3.855 seconds (process running for 5.771)
+2025-11-06T10:33:17.156+05:30  INFO 23112 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:33:17.167+05:30  INFO 23112 --- [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:33:17.177+05:30  INFO 23112 --- [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 8 ms
+2025-11-06T10:33:17.415+05:30  INFO 23112 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:33:17.416+05:30  INFO 23112 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:33:17.443+05:30  INFO 23112 --- [http-nio-8080-exec-2] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:33:18.037+05:30  INFO 23112 --- [http-nio-8080-exec-2] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 83586325-e4d3-473d-a814-311858403326
+2025-11-06T10:33:18.043+05:30  INFO 23112 --- [http-nio-8080-exec-2] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:33:18.078+05:30 DEBUG 23112 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetched 2 users from database.
+2025-11-06T10:33:18.079+05:30 DEBUG 23112 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Fetched 2 users from database
+2025-11-06T10:33:18.203+05:30  INFO 23112 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:33:18.204+05:30  INFO 23112 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:33:18.215+05:30 DEBUG 23112 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetched 2 users from database.
+2025-11-06T10:33:18.215+05:30 DEBUG 23112 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Fetched 2 users from database
+2025-11-06T10:33:44.633+05:30  INFO 23112 --- [http-nio-8080-exec-3] c.e.d.c.UserController                   : Received POST request to add new user: may
+2025-11-06T10:34:18.486+05:30  INFO 23112 --- [http-nio-8080-exec-3] c.e.d.s.UserService                      : Attempting to add new user: may
+2025-11-06T10:34:41.734+05:30 DEBUG 23112 --- [http-nio-8080-exec-3] c.e.d.s.UserService                      : User 'may' added successfully in the database.
+2025-11-06T10:35:25.585+05:30 DEBUG 23112 --- [http-nio-8080-exec-3] c.e.d.c.UserController                   : Response for addUser: User added successfully!
+2025-11-06T10:36:24.124+05:30  INFO 39768 --- [main] c.e.d.UserManagementBackendApplication   : Starting UserManagementBackendApplication using Java 21.0.8 with PID 39768 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T10:36:24.138+05:30 DEBUG 39768 --- [main] c.e.d.UserManagementBackendApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:36:24.140+05:30  INFO 39768 --- [main] c.e.d.UserManagementBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:36:25.454+05:30  INFO 39768 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:36:25.482+05:30  INFO 39768 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:36:25.483+05:30  INFO 39768 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:36:25.551+05:30  INFO 39768 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:36:25.552+05:30  INFO 39768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1337 ms
+2025-11-06T10:36:26.330+05:30  INFO 39768 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:36:26.341+05:30  INFO 39768 --- [main] c.e.d.UserManagementBackendApplication   : Started UserManagementBackendApplication in 2.821 seconds (process running for 4.194)
+2025-11-06T10:36:38.613+05:30  INFO 39768 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:36:38.614+05:30  INFO 39768 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:36:38.616+05:30  INFO 39768 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2025-11-06T10:36:38.686+05:30  INFO 39768 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:36:38.687+05:30  INFO 39768 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:36:38.711+05:30  INFO 39768 --- [http-nio-8080-exec-1] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:36:39.149+05:30  INFO 39768 --- [http-nio-8080-exec-1] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: fc1493e5-5b81-447a-be4f-15bd9f85125f
+2025-11-06T10:36:39.153+05:30  INFO 39768 --- [http-nio-8080-exec-1] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:36:39.181+05:30 DEBUG 39768 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetched 3 users from database.
+2025-11-06T10:36:39.182+05:30 DEBUG 39768 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Fetched 3 users from database
+2025-11-06T10:36:39.256+05:30  INFO 39768 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:36:39.257+05:30  INFO 39768 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:36:39.265+05:30 DEBUG 39768 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetched 3 users from database.
+2025-11-06T10:36:39.266+05:30 DEBUG 39768 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Fetched 3 users from database
+2025-11-06T10:57:15.026+05:30  INFO 39768 --- [http-nio-8080-exec-5] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:57:15.026+05:30  INFO 39768 --- [http-nio-8080-exec-5] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:57:15.029+05:30 DEBUG 39768 --- [http-nio-8080-exec-5] c.e.d.s.UserService                      : Fetched 3 users from database.
+2025-11-06T10:57:15.029+05:30 DEBUG 39768 --- [http-nio-8080-exec-5] c.e.d.c.UserController                   : Fetched 3 users from database
+2025-11-06T10:57:15.035+05:30  INFO 39768 --- [http-nio-8080-exec-6] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:57:15.035+05:30  INFO 39768 --- [http-nio-8080-exec-6] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:57:15.038+05:30 DEBUG 39768 --- [http-nio-8080-exec-6] c.e.d.s.UserService                      : Fetched 3 users from database.
+2025-11-06T10:57:15.038+05:30 DEBUG 39768 --- [http-nio-8080-exec-6] c.e.d.c.UserController                   : Fetched 3 users from database
+2025-11-06T10:57:36.016+05:30  INFO 39768 --- [http-nio-8080-exec-8] c.e.d.c.UserController                   : Received POST request to add new user: sandy
+2025-11-06T10:57:36.016+05:30  INFO 39768 --- [http-nio-8080-exec-8] c.e.d.s.UserService                      : Attempting to add new user: sandy
+2025-11-06T10:57:36.061+05:30 DEBUG 39768 --- [http-nio-8080-exec-8] c.e.d.s.UserService                      : User 'sandy' added successfully in the database.
+2025-11-06T10:57:36.061+05:30 DEBUG 39768 --- [http-nio-8080-exec-8] c.e.d.c.UserController                   : Response for addUser: User added successfully!
+2025-11-06T10:57:39.201+05:30  INFO 39768 --- [http-nio-8080-exec-9] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:57:39.203+05:30  INFO 39768 --- [http-nio-8080-exec-9] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:57:39.211+05:30 DEBUG 39768 --- [http-nio-8080-exec-9] c.e.d.s.UserService                      : Fetched 4 users from database.
+2025-11-06T10:57:39.213+05:30 DEBUG 39768 --- [http-nio-8080-exec-9] c.e.d.c.UserController                   : Fetched 4 users from database
+2025-11-06T10:57:39.222+05:30  INFO 39768 --- [http-nio-8080-exec-10] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T10:57:39.224+05:30  INFO 39768 --- [http-nio-8080-exec-10] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T10:57:39.239+05:30 DEBUG 39768 --- [http-nio-8080-exec-10] c.e.d.s.UserService                      : Fetched 4 users from database.
+2025-11-06T10:57:39.240+05:30 DEBUG 39768 --- [http-nio-8080-exec-10] c.e.d.c.UserController                   : Fetched 4 users from database
+2025-11-06T10:57:57.927+05:30  INFO 39768 --- [RMI TCP Connection(25)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T10:57:57.931+05:30  INFO 39768 --- [RMI TCP Connection(25)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T10:57:57.937+05:30  INFO 39768 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-06T10:57:57.942+05:30  INFO 39768 --- [RMI TCP Connection(25)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T10:57:57.946+05:30  INFO 39768 --- [RMI TCP Connection(25)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T11:06:42.340+05:30  INFO 45216 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 45216 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T11:06:42.361+05:30 DEBUG 45216 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:06:42.364+05:30  INFO 45216 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:06:45.275+05:30  INFO 45216 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.628 seconds (process running for 6.243)
+2025-11-06T11:07:07.784+05:30  INFO 41640 --- [main] c.e.d.UserManagementBackendApplication   : Starting UserManagementBackendApplication using Java 21.0.8 with PID 41640 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T11:07:07.799+05:30 DEBUG 41640 --- [main] c.e.d.UserManagementBackendApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:07:07.802+05:30  INFO 41640 --- [main] c.e.d.UserManagementBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:07:09.022+05:30  INFO 41640 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T11:07:09.042+05:30  INFO 41640 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T11:07:09.043+05:30  INFO 41640 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T11:07:09.101+05:30  INFO 41640 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T11:07:09.102+05:30  INFO 41640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1218 ms
+2025-11-06T11:07:09.873+05:30  INFO 41640 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T11:07:09.885+05:30  INFO 41640 --- [main] c.e.d.UserManagementBackendApplication   : Started UserManagementBackendApplication in 2.74 seconds (process running for 4.192)
+2025-11-06T11:07:12.974+05:30  INFO 41640 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T11:07:12.980+05:30  INFO 41640 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T11:07:12.991+05:30  INFO 41640 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-06T11:07:19.892+05:30  INFO 31176 --- [main] c.e.d.UserManagementBackendApplication   : Starting UserManagementBackendApplication using Java 21.0.8 with PID 31176 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T11:07:19.907+05:30 DEBUG 31176 --- [main] c.e.d.UserManagementBackendApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:07:19.910+05:30  INFO 31176 --- [main] c.e.d.UserManagementBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:07:21.340+05:30  INFO 31176 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T11:07:21.364+05:30  INFO 31176 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T11:07:21.365+05:30  INFO 31176 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T11:07:21.433+05:30  INFO 31176 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T11:07:21.433+05:30  INFO 31176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1452 ms
+2025-11-06T11:07:22.253+05:30  INFO 31176 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T11:07:22.270+05:30  INFO 31176 --- [main] c.e.d.UserManagementBackendApplication   : Started UserManagementBackendApplication in 3.067 seconds (process running for 4.884)
+2025-11-06T11:07:44.352+05:30  INFO 31176 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T11:07:44.352+05:30  INFO 31176 --- [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T11:07:44.357+05:30  INFO 31176 --- [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+2025-11-06T11:07:44.449+05:30  INFO 31176 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T11:07:44.450+05:30  INFO 31176 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T11:07:44.482+05:30  INFO 31176 --- [http-nio-8080-exec-2] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T11:07:45.014+05:30  INFO 31176 --- [http-nio-8080-exec-2] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 837dd8c7-e6cd-4364-b2a1-0457d8b299de
+2025-11-06T11:07:45.018+05:30  INFO 31176 --- [http-nio-8080-exec-2] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T11:07:45.049+05:30 DEBUG 31176 --- [http-nio-8080-exec-2] c.e.d.s.UserService                      : Fetched 4 users from database.
+2025-11-06T11:07:45.049+05:30 DEBUG 31176 --- [http-nio-8080-exec-2] c.e.d.c.UserController                   : Fetched 4 users from database
+2025-11-06T11:07:45.138+05:30  INFO 31176 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Received GET request to fetch all users
+2025-11-06T11:07:45.139+05:30  INFO 31176 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetching all users from database...
+2025-11-06T11:07:45.142+05:30 DEBUG 31176 --- [http-nio-8080-exec-1] c.e.d.s.UserService                      : Fetched 4 users from database.
+2025-11-06T11:07:45.142+05:30 DEBUG 31176 --- [http-nio-8080-exec-1] c.e.d.c.UserController                   : Fetched 4 users from database
+2025-11-06T11:08:02.460+05:30  INFO 31176 --- [http-nio-8080-exec-4] c.e.d.c.UserController                   : Received POST request to add new user: sony
+2025-11-06T11:08:27.087+05:30  INFO 31176 --- [http-nio-8080-exec-4] c.e.d.s.UserService                      : Attempting to add new user: sony
+2025-11-06T11:27:01.936+05:30  INFO 23308 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 23308 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T11:27:01.953+05:30 DEBUG 23308 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:27:01.956+05:30  INFO 23308 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:27:04.480+05:30  INFO 23308 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-11-06T11:27:05.245+05:30  INFO 23308 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 4.176 seconds (process running for 6.448)
+2025-11-06T11:31:05.509+05:30  INFO 13784 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 13784 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T11:31:05.530+05:30 DEBUG 13784 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:31:05.534+05:30  INFO 13784 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:31:08.051+05:30  INFO 13784 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-11-06T11:31:08.943+05:30  INFO 13784 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 4.071 seconds (process running for 6.215)
+2025-11-06T11:35:21.443+05:30  INFO 24716 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 24716 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T11:35:21.461+05:30 DEBUG 24716 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:35:21.464+05:30  INFO 24716 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:35:23.750+05:30  INFO 24716 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-11-06T11:35:24.338+05:30  INFO 24716 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.534 seconds (process running for 5.699)
+2025-11-06T11:39:08.907+05:30  INFO 29780 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 29780 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T11:39:08.927+05:30 DEBUG 29780 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:39:08.929+05:30  INFO 29780 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:39:11.451+05:30  INFO 29780 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-11-06T11:39:12.073+05:30  INFO 29780 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.9 seconds (process running for 6.112)
+2025-11-06T12:56:37.573+05:30  INFO 16200 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 16200 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T12:56:37.591+05:30 DEBUG 16200 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T12:56:37.594+05:30  INFO 16200 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T12:56:39.900+05:30  INFO 16200 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T12:56:40.731+05:30  INFO 16200 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.788 seconds (process running for 6.293)
+2025-11-06T13:10:21.141+05:30  INFO 41340 --- [main] c.e.d.UserManagementBackendApplication   : Starting UserManagementBackendApplication using Java 21.0.8 with PID 41340 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T13:10:21.158+05:30 DEBUG 41340 --- [main] c.e.d.UserManagementBackendApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T13:10:21.161+05:30  INFO 41340 --- [main] c.e.d.UserManagementBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T13:10:23.435+05:30  INFO 41340 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T13:10:23.467+05:30  INFO 41340 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T13:10:23.468+05:30  INFO 41340 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T13:10:23.542+05:30  INFO 41340 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T13:10:23.543+05:30  INFO 41340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2142 ms
+2025-11-06T13:10:24.160+05:30  INFO 41340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T13:10:24.610+05:30  INFO 41340 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T13:10:24.622+05:30  INFO 41340 --- [main] c.e.d.UserManagementBackendApplication   : Started UserManagementBackendApplication in 4.635 seconds (process running for 7.368)
+2025-11-06T13:10:26.084+05:30  INFO 41340 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T13:10:26.090+05:30  INFO 41340 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T13:10:26.103+05:30  INFO 41340 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-06T13:14:13.268+05:30  INFO 42096 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 42096 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T13:14:13.285+05:30 DEBUG 42096 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T13:14:13.288+05:30  INFO 42096 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T13:14:15.592+05:30  INFO 42096 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T13:14:16.192+05:30  INFO 42096 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.885 seconds (process running for 6.245)
+2025-11-06T15:19:05.233+05:30  INFO 36148 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 36148 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T15:19:05.252+05:30 DEBUG 36148 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T15:19:05.256+05:30  INFO 36148 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T15:19:08.022+05:30  INFO 36148 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T15:19:08.819+05:30  INFO 36148 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 4.352 seconds (process running for 6.561)
+2025-11-06T15:42:30.155+05:30  INFO 10812 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 10812 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T15:42:30.176+05:30 DEBUG 10812 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T15:42:30.179+05:30  INFO 10812 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T15:42:32.716+05:30  INFO 10812 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T15:42:33.335+05:30  INFO 10812 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.961 seconds (process running for 6.027)
+2025-11-06T15:43:06.377+05:30  INFO 16536 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 16536 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T15:43:06.401+05:30 DEBUG 16536 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T15:43:06.404+05:30  INFO 16536 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T15:43:09.043+05:30  INFO 16536 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T15:43:09.660+05:30  INFO 16536 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.975 seconds (process running for 6.08)
+2025-11-06T15:43:43.987+05:30  INFO 11192 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 11192 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T15:43:44.006+05:30 DEBUG 11192 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T15:43:44.013+05:30  INFO 11192 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T15:43:46.350+05:30  INFO 11192 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T15:43:47.071+05:30  INFO 11192 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.796 seconds (process running for 6.21)
+2025-11-06T17:30:38.307+05:30  INFO 45748 --- [main] .d.UserManagementBackendApplicationTests : Starting UserManagementBackendApplicationTests using Java 21.0.8 with PID 45748 (started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T17:30:38.335+05:30 DEBUG 45748 --- [main] .d.UserManagementBackendApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T17:30:38.342+05:30  INFO 45748 --- [main] .d.UserManagementBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T17:30:41.512+05:30  INFO 45748 --- [main] .d.UserManagementBackendApplicationTests : Started UserManagementBackendApplicationTests in 3.897 seconds (process running for 6.558)
+2025-11-06T17:42:39.653+05:30  INFO 2612 --- [main] c.e.d.UserManagementBackendApplication   : Starting UserManagementBackendApplication using Java 21.0.8 with PID 2612 (C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend\target\classes started by athira in C:\Users\athira\Documents\workspace-spring-tools-for-eclipse-4.32.0.RELEASE\FullStack\user-management-backend)
+2025-11-06T17:42:39.667+05:30 DEBUG 2612 --- [main] c.e.d.UserManagementBackendApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T17:42:39.670+05:30  INFO 2612 --- [main] c.e.d.UserManagementBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T17:42:41.080+05:30  INFO 2612 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T17:42:41.102+05:30  INFO 2612 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T17:42:41.103+05:30  INFO 2612 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T17:42:41.161+05:30  INFO 2612 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T17:42:41.162+05:30  INFO 2612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1396 ms
+2025-11-06T17:42:41.975+05:30  INFO 2612 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T17:42:41.986+05:30  INFO 2612 --- [main] c.e.d.UserManagementBackendApplication   : Started UserManagementBackendApplication in 2.937 seconds (process running for 5.87)
+2025-11-06T17:43:46.705+05:30  INFO 2612 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T17:43:46.709+05:30  INFO 2612 --- [RMI TCP Connection(3)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T17:43:46.717+05:30  INFO 2612 --- [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
